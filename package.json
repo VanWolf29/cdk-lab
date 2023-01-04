@@ -1,0 +1,41 @@
+{
+  "name": "cdk-lab",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-lab": "bin/cdk-lab.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk",
+    "fmt": "prettier --write '**/*.ts' && eslint . --ext .ts --fix",
+    "lint": "prettier --check '**/*.ts' && eslint . --ext .ts",
+    "test": "jest",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.50.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "10.17.27",
+    "@types/prettier": "2.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "aws-cdk": "^2.50.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.4",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^27.5.1",
+    "jest-html-reporters": "^3.0.11",
+    "jest-mock-extended": "^3.0.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.9.1",
+    "typescript": "~3.9.7"
+  }
+}

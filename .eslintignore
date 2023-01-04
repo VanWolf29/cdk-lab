@@ -1,0 +1,4 @@
+dist/
+node_modules/
+*-stack.d.ts
+*-stack.js
